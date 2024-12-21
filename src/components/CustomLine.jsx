@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CustomLine = ({ width = '5%', height = '3px', color = '#00AEEF'}) => {
+const CustomLine = ({ width = '10%', height = '3px', color = '#00AEEF'}) => {
   return (
     <div
       style={{

@@ -6,12 +6,11 @@ import { PlayIcon } from '@heroicons/react/24/solid';
 function HeroSection() {
   return (
     <section 
-      className="bg-cover bg-center bg-no-repeat flex h-screen" 
+      className="bg-cover bg-center bg-no-repeat flex justify-center items-center h-screen" 
       style={{ backgroundImage: `url(${backgroundImage})` }} 
     >
-      <div className="hidden sm:block container text-white">
-      <div className="h-full flex justify-center lg-justify-end items-center"> 
-        <div className='flex bg-customLightblue ' style={{width: '95%', height: '65%'}}>
+      <div className=" hidden sm:block text-white h-[65%] sm:mx-9">
+        <div className='flex h-full'>
            <div className='w-4/6 bg-white flex justify-center items-center'>
                 <div className='px-8'>
                     <p className="font-medium text-customLightblue font-cabin text-2xl mb-4">
@@ -35,7 +34,6 @@ function HeroSection() {
                </div>
            </div>
         </div>
-        </div>
       </div>
       <div className="hidden lg:block container mx-auto">
       </div>
@@ -46,9 +44,9 @@ function HeroSection() {
             <p className='text-white font-medium font-cabin text-xl mb-4'>Assarain Food Products L.L.C.</p>
             <h1 className='text-white text-4xl font-cabin font-bold mb-6'>Oman Best Food Distributor Natural, Organic, Specialty, And Fresh.</h1>
             <button className='font-openSans font-bold text-sm text-white bg-customLightblue px-10 py-3 mb-4'>REQUEST A QUOTE</button>
-            <div className='flex w-[95%] mt-12'>
+            <div className='flex w-[95%] mt-2'>
                 <PlayIcon className='h-10 w-10 text-white mx-2'/>
-                <p className='text-white font-cabin font-medium text-base'>Video of a Warehouse How Our Distribution Process Work…</p>
+                <p className='text-white font-cabin font-medium text-base my-auto'>Video of a Warehouse How Our Distribution Process Work…</p>
             </div>
         </div>
       </div>

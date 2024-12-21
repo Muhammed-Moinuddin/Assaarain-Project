@@ -1,4 +1,5 @@
-import AboutUsSection from "./components/AboutUsSection"
+import AboutUsSection from "./components/BrandsSection"
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
 
@@ -9,7 +10,7 @@ function App() {
       <Header/>
       <HeroSection/>
       <AboutUsSection/>
-
+      <Footer/>
     </>
   )
 }
